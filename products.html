@@ -9,6 +9,23 @@
     <meta name="keywords" content="">
     <meta name="author" content="Kim, Caue">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        main {
+            display: flex;
+            flex-wrap:  wrap;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        section {
+            
+            margin-bottom: 20px;
+        }
+        .productrow {
+            display: flex;
+            flex-direction: rows;
+            justify-content: space-around;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +41,34 @@
     </div>
 
     <main>
-
+        <div class="productrow">
+            <section>
+                <img src="rat.jpg" alt="Rat" width="200">
+                <h2>Rat</h2>
+                <p>Price: $19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section>
+                <img src="guineapigarmor.jpg" alt="Guinea Pig Armor" width="200">
+                <h2>Guinea Pig Armor</h2>
+                <p>Price: $49.99</p>
+                <button>Add to Cart</button>
+            </section>
+        </div>
+        <div class="productrow">
+            <section>
+                <img src="woman.jpg" alt="Girlfriend" width="200">
+                <h2>Girlfriend</h2>
+                <p>Price: $999.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section>
+                <img src="chickenharness.jpg" alt="Chicken Harness" width="200">
+                <h2>Chicken Harness</h2>
+                <p>Price: $34.99</p>
+                <button>Add to Cart</button>
+            </section>
+        </div>
     </main>
 </body>
 
